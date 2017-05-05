@@ -16,5 +16,5 @@
 
 ### Screenshots
 
-1) ![Alt text](https://www.dropbox.com/s/yqstwcxndfg7qiy/screen1.png?dl=0 "ScreenShot 1")
-2) ![Alt text](https://www.dropbox.com/s/b88yq1xzjsyfpsc/screen2.png?dl=0 "ScreenShot 2")
+1) ![Alt text](/img/screen1.png "ScreenShot 1")
+2) ![Alt text](/img/screen2.png "ScreenShot 2")
