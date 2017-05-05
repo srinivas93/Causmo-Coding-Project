@@ -1,0 +1,99 @@
+{
+	"cause": [{
+		"name": "Test Cause",
+		"categories": [{"key":"Animals", "value":"Environment"}],
+		"logo": "https://s3.amazonaws.com/causemo-static/causemo_text_heart_small.png",
+		"campaigns": [{
+			"name": "Test Campaign",
+			"amountRaised": 32450,
+			"goalAmount": 50000,
+			"status": "active",
+			"image": "https://s3.amazonaws.com/causemo-static/causemo-social.jpg",
+			"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.",
+			"recentDonations": [{
+					"firstName": "Test1",
+					"lastName": "User1",
+					"amountRaised": 25,
+					"avatar": "http://www.gravatar.com/avatar/?d=identicon",
+					"createdAt": "2017-05-02T16:54:05.228Z",
+					"device": {
+						"osName": "Windows",
+						"osVersion": "NT 10.0"
+					},
+					"location": {
+						"country": "US",
+						"countryName": "United States",
+						"region": "MA",
+						"regionName": "Massachusetts",
+						"city": "Framingham"
+					}
+				},
+				{
+					"firstName": "Test2",
+					"lastName": "User2",
+					"amountRaised": 50,
+					"avatar": "http://www.gravatar.com/avatar/?d=monsterid",
+					"createdAt": "2017-05-02T12:54:05.228Z",
+					"device": {
+						"osName": "Android",
+						"osVersion": "6.0.1"
+					},
+					"location": {
+						"country": "IN",
+						"countryName": "India",
+						"region": "DEL",
+						"regionName": "New Dehli",
+						"city": "Dwarka"
+					}
+				},
+				{
+					"firstName": "Test3",
+					"lastName": "User3",
+					"amountRaised": 10,
+					"avatar": "http://www.gravatar.com/avatar/?d=wavatar",
+					"createdAt": "2017-05-01T16:45:05.228Z",
+					"device": {
+						"osName": "Mac OS X",
+						"osVersion": "10.12.4"
+					},
+					"location": {
+						"country": "US",
+						"countryName": "United States",
+						"region": "MA",
+						"regionName": "Massachusetts",
+						"city": "Framingham"
+					}
+				},
+				{
+					"firstName": "Test4",
+					"lastName": "User4",
+					"amountRaised": 55,
+					"avatar": "http://www.gravatar.com/avatar/?d=retro",
+					"createdAt": "2017-05-01T12:40:05.228Z",
+					"device": {
+						"osName": "Mac OS X",
+						"osVersion": "10.12.4"
+					},
+					"location": {
+						"country": "US",
+						"countryName": "United States",
+						"region": "AR",
+						"regionName": "Arkansas",
+						"city": "Gravette"
+					}
+				}
+			],
+			"stats": {
+				"adViews": 150000,
+				"adClicks": 15000,
+				"donationCount": 1000,
+				"costPerAd": 0.01
+			}
+		}]
+	}],
+	"profile": {
+		"firstName": "Test0",
+		"lastName": "User0",
+		"avatar": "http://www.gravatar.com/avatar/?d=mm"
+	}
+}
