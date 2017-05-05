@@ -1,4 +1,4 @@
-# Cause Coding Assignment 
+# Causmo Coding Assignment 
 
  Display JSON data in HTML.
 
