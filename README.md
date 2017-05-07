@@ -14,7 +14,4 @@
 
   Developed and tested with live preview on Brackets.
 
-### Screenshots
 
-1) ![Alt text](/img/screen1.png "ScreenShot 1")
-2) ![Alt text](/img/screen2.png "ScreenShot 2")
