@@ -3463,7 +3463,7 @@ button.btn-floating {
 }
 
 .navbar .navbar-toggle .icon-bar {
-  background-color: rgba(255, 255, 255, 0.84);
+  background-color: black;
 }
 
 .navbar .navbar-collapse,
