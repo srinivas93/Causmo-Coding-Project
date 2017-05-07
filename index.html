@@ -44,15 +44,7 @@
          <li>
              <img ng-src="{{prof.avatar}}" class="profile-image img-circle"/> {{prof.firstName}} {{prof.lastName}}  <span class="caret"></span> 
               </li> 
-    <!--    <li class="dropdown">
-            <!-- Profile info from JSON file 
-          <a href="#" class="dropdown-toggle black-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> {{prof.firstName}} {{prof.lastName}} <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li> Sample1 </li>
-            <li> Sample 2 </li>
-            
-              </ul>
-        </li> -->
+
       </ul>
           
       </div>
@@ -148,7 +140,7 @@
             
         <div class="container">
  <div class="row">
-    <div class="col-lg-4">
+    <div class="col-md-4 col-sm-4">
 <div class="panel panel-default">
 <div class="panel-heading text-center"> <span class="glyphicon glyphicon-list-alt"></span><b> Ad Stats </b></div>
 <div class="panel-body">
@@ -158,40 +150,19 @@
 
 
 <li style="" class="news-item" >
-<!--<table cellpadding="4">
-<tbody><tr>
-<td></td>
-<td>Ad Views: {{ campaigns.stats.adViews }}</td>
-</tr>
-</tbody></table>
-</li>-->
+
     <h5> <span class="small">Ad Views: </span> <strong class="text-success"> {{ campaigns.stats.adViews }}</strong> </h5>
     </li>
     <li style="" class="news-item">
-<!--<table cellpadding="4">
-<tbody><tr>
-<td></td>
-<td>Ad Clicks: {{ campaigns.stats.adClicks }}</td>
-</tr>
-</tbody></table> -->
+
         <h5> <span class="small">Ad Clicks: </span> <strong class="text-success"  >{{ campaigns.stats.adClicks }}</strong> </h5>
 </li>
 <li style="display:none;" class="news-item">
-<!-- <table cellpadding="4">
-<tbody><tr>
-<td></td>
-<td> Donation Count: {{ campaigns.stats.donationCount }}</td>
-</tr>
-</tbody></table> -->
+
 <h5> <span class="small">Donation Count: </span> <strong class="text-success" > {{ campaigns.stats.donationCount }} </strong> </h5>
     </li> 
     <li style="display:none;" class="news-item">
-<!--<table cellpadding="4">
-<tbody><tr>
-<td></td>
-<td>Cost Per Ad: {{ campaigns.stats.costPerAd }} </td>
-</tr>
-</tbody></table> -->
+
         <h5> <span class="small">Cost Per Ad: </span> <strong class="text-success" > {{ campaigns.stats.costPerAd }} </strong> </h5>
     </li> </ul>
 </div>
@@ -205,18 +176,18 @@
                      </div>
    
     <div ng-repeat = "campaigns in data.campaigns">
-                <div class="col-lg-8">
+                <div class="col-md-8 col-sm-8">
             <div class="panel panel-default">
-            <div class="panel-heading text-center clearfix"><span class="glyphicon glyphicon-globe"></span><b>{{campaigns.name}} </b></div> 
+            <div class="panel-heading text-center clearfix"><span class="glyphicon glyphicon-globe"></span><b>  {{campaigns.name}} </b></div> 
             <div class="panel-body">
                 <div class="container"></div>
                 <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-4 col-xs-4">
                     <h5> <span class="smaller">Raised:</span> <strong class="text-warning"> ${{campaigns.amountRaised}} </strong> </h5>
                     <h5>  <span class="smaller"> Goal : </span><strong class="text-info"> ${{campaigns.goalAmount}} </strong> </h5> 
                     <h5> <span class="smaller">Status:</span> <strong class="text-danger"> {{campaigns.status}} </strong></h5>
                 </div>
-                   <div class="col-md-4">
+                   <div class="col-sm-4 col-xs-4">
                     <div class="c100 p70">
                         <span> 64.9%</span>
                         <div class="slice">
@@ -227,7 +198,7 @@
 
                    
                    </div>
-                <div class="col-md-4">
+                <div class="col-sm-4 col-xs-4">
                   <h6> <strong class ="text-success">$17,550 </strong>to goal! Help  reach the campaign goal.</h6>
                      <button type="button" class="btn btn-primary">Donate Now!</button>
                     <button type="button" class="btn btn-secondary btn-sm"> <i class="fa fa-share-alt"></i> Share </button>
@@ -244,7 +215,7 @@
                      </div>
     
             </div>
-                </div>
+           <!--     </div> -->
             
                                   
           <!-- Table for recnet Donations -->
@@ -256,13 +227,19 @@
             
             <div class="table-responsive">
               <table class="table table-striped table-bordered">
+                  <thead class="text-center">
+                  
+                  <tr>
                   <th> First Name</th>
                   <th> Last Name</th>
                   <th> Amount Raised</th>
                   <th> Avatar</th>
                   <th> Created At</th>
                   <th> Device</th>
-                  <th> Location</th>
+                      <th class="text-center" colspan="5"> Location  </th>
+                      </tr>
+          
+                  </thead>
                   <tbody ng-repeat="donation  in recentDonations">
                   
                 
